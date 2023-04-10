@@ -3,7 +3,7 @@
         <div class="row column_title">
             <div class="col-md-12">
                 <div class="page_title">
-                    <h2>TRACK RECORD GOLONGAN </h2>
+                    <h2>TRACK RECORD JABATAN </h2>
                 </div>
             </div>
         </div>
@@ -13,7 +13,7 @@
                 <div class="white_shd full margin_bottom_30">
                     <div class="full graph_head">
                         <div class="heading1 margin_0">
-                            <h2>DATA TRACK RECORD GOLONGAN</h2>
+                            <h2>DATA TRACK RECORD JABATAN </h2>
                         </div>
                     </div>
                     <div class="table_section padding_infor_info">
@@ -32,7 +32,7 @@
                                         <td>John</td>
                                         <td>Doe</td>
                                         <td>john@example.com</td>
-                                        <td><a href="<?php echo base_url('detailgolongan')?>"><button
+                                        <td><a href="<?php echo base_url('detailjabatan')?>"><button
                                                             class="btn btn-warning btn-xs"><i class="fa fa-eye"> Detail
                                                                 </i></button></td>
                                     </tr>

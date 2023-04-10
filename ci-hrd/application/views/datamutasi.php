@@ -32,7 +32,8 @@
                                         <td>John</td>
                                         <td>Doe</td>
                                         <td>john@example.com</td>
-                                        <td></td>
+                                        <td> <a href="<?php echo base_url('tambahdatamutasikerja')?>"><button
+                                    class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah Data</i></button></a></td>
                                     </tr>
                                     <tr>
                                         <td>Mary</td>
@@ -44,7 +45,7 @@
                                         <td>July</td>
                                         <td>Dooley</td>
                                         <td>july@example.com</td>
-                                        <td></td>
+                                        <td></a></td>
                                     </tr>
                                 </tbody>
                             </table>

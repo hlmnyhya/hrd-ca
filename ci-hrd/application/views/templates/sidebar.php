@@ -39,11 +39,11 @@
                                 class="dropdown-toggle"><i class="fa fa-area-chart yellow_color"></i> <span>Riwayat
                                     Golongan</span></a>
                             <ul class="collapse list-unstyled" id="additional_page">
-                                <li>
-                                    <a href="<?php echo base_url('trackrecord')?>">> <span>Track Record Jabatan By Date</span></a>
+                            <li>
+                                    <a href="<?php echo base_url('trackrecord')?>">> <span>Track Record Golongan</span></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url('datamutasi')?>">> <span>Data Mutasi Kerja</span></a>
+                                    <a href="<?php echo base_url('datagolongan')?>">> <span>Data Golongan</span></a>
                                 </li>
                             </ul>
                         </li>
@@ -51,7 +51,13 @@
                             <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                                     class="fa fa-briefcase blue2_color"></i> <span>Riwayat Jabatan</span></a>
                             <ul class="collapse list-unstyled" id="apps">
-                                <li><a href="jabatanbyname.html">> <span>Track Ricord Jabatan By Name</span></a></li>
+                                <!-- <li><a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Ricord Jabatan By Name</span></a></li> -->
+                                <li>
+                                    <a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Record Jabatan </span></a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('datamutasi')?>">> <span>Data Mutasi Kerja</span></a>
+                                </li>
                             </ul>
                         </li>
                         <li>
