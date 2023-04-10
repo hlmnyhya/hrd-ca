@@ -16,6 +16,9 @@
                     <div class="full graph_head">
                         <div class="heading1 margin_0">
                             <h2>LIST DATA PRIBADI</h2>
+                            <a href="<?php echo base_url('tambahdatapribadi')?>"><button
+                                    class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah Data</i></button></a>
+
                         </div>
                     </div>
                     <div class="full price_table padding_infor_info">
@@ -42,8 +45,15 @@
                                             <div class="right_button">
 
                                                 <td><a href="<?php echo base_url('profil')?>"><button
-                                                            class="btn btn-primary btn-xs"><i class="fa fa-user">View
+                                                            class="btn btn-primary btn-xs"><i class="fa fa-user"> View
                                                                 Profile</i></button></a>
+                                                    <a href="<?php echo base_url('profil')?>"><button
+                                                            class="btn btn-danger btn-xs"><i class="fa fa-trash-o">
+                                                                Hapus
+                                                            </i></button></a>
+                                                    <a href="<?php echo base_url('editdatapribadi')?>"><button
+                                                            class="btn btn-warning btn-xs"><i class="fa fa-cogs"> Edit
+                                                            </i></button></a>
                                                 </td>
                                             </div>
                                         </div>
