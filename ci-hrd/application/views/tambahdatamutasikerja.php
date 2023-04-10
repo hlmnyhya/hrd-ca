@@ -10,58 +10,29 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Nama</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Alamat</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Tanggal Lahir</label>
-                    <input type="date" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Jenis Kelamin</label>
-                    <select class="form-control" name="asli" require="true">
-                        <option selected disabled>--Pilih--</option>
-                        <option>Laki-Laki</option>
-                        <option>Perempuan</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Gaji</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Nomer Telpon</label>
-                    <input type="number" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Email</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Alamat</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Tanggal Masuk</label>
-                    <input type="date" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <label for="formGroupExampleInput2">Golongan</label>
+                    <input type="text" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Jabatan</label>
-                    <select class="form-control" name="asli" require="true">
-                        <option selected disabled>--Pilih--</option>
-                        <option>HARNIK</option>
-                        <option>HRD</option>
-                    </select>
+                    <input type="text" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Dibuat Pada</label>
-                    <input type="date" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div><br>
-                <button type="submit" class="btn btn-primary">Simpan</button>
+                    <label for="formGroupExampleInput2">Tanggal Mulai</label>
+                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInp ut2">Tanggal Selesai</label>
+                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <br>
+                <td>
+                    <button type="submit" class="btn btn-primary btn-">Simpan <i class="fa fa-save">
+                        </i></button>
+
+                </td>
                 </form>
             </main>
         </div>
