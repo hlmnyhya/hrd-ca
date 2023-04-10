@@ -28,7 +28,7 @@
 
                         <li>
                             <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-diamond purple_color"></i> <span>Data Karyawan</span></a>
+                                    class="fa fa-user purple_color"></i> <span>Data Karyawan</span></a>
                             <ul class="collapse list-unstyled" id="element">
                                 <li><a href="<?php echo base_url('pribadi')?>">> <span>Pribadi</span></a></li>
                                 <li><a href="<?php echo base_url('karyawan')?>">> <span>Karyawan</span></a></li>
@@ -36,7 +36,7 @@
                         </li>
                         <li class="active">
                             <a href="#additional_page" data-toggle="collapse" aria-expanded="false"
-                                class="dropdown-toggle"><i class="fa fa-clone yellow_color"></i> <span>Riwayat
+                                class="dropdown-toggle"><i class="fa fa-area-chart yellow_color"></i> <span>Riwayat
                                     Golongan</span></a>
                             <ul class="collapse list-unstyled" id="additional_page">
                                 <li>
@@ -49,14 +49,14 @@
                         </li>
                         <li>
                             <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-object-group blue2_color"></i> <span>Riwayat Jabatan</span></a>
+                                    class="fa fa-briefcase blue2_color"></i> <span>Riwayat Jabatan</span></a>
                             <ul class="collapse list-unstyled" id="apps">
                                 <li><a href="jabatanbyname.html">> <span>Track Ricord Jabatan By Name</span></a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#apps1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-object-group blue2_color"></i> <span>Data Pelamar</span></a>
+                                    class="fa fa-users purple_color"></i> <span>Data Pelamar</span></a>
                             <ul class="collapse list-unstyled" id="apps1">
                                 <li><a href="<?php echo base_url('datapelamar')?>">> <span>Data </span></a></li>
                             </ul>
