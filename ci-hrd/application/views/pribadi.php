@@ -16,8 +16,9 @@
                     <div class="full graph_head">
                         <div class="heading1 margin_0">
                             <h2>LIST DATA PRIBADI</h2>
-                            <a href="<?php echo base_url('tambahdatapribadi')?>"><button
-                                    class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah Data</i></button></a>
+                            <td><a href="<?php echo base_url('tambahdatapribadi')?>"><button
+                                        class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah
+                                            Data</i></button></a></td>
 
                         </div>
                     </div>
@@ -25,38 +26,43 @@
                         <div class="row">
                             <!-- column contact -->
                             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 profile_details margin_bottom_30">
-                                <div class="contact_blog">
-                                    <div class="contact_inner">
-                                        <div class="left">
-                                            <h4>John Smith</h4>
-                                            <p><strong>Jabatan: </strong>Frontend Developer</p>
-                                            <ul class="list-unstyled">
-                                                <li><i class="fa fa-envelope-o"></i> : test@gmail.com
-                                                </li>
-                                                <li><i class="fa fa-phone"></i> : 987 654 3210</li>
-                                            </ul>
-                                        </div>
-                                        <div class="right">
-                                            <div class="profile_contacts">
-                                                <img class="img-responsive" src="images/layout_img/msg2.png" alt="#" />
+                                <main>
+                                    <div class="contact_blog">
+                                        <div class="contact_inner">
+                                            <div class="left">
+                                                <h4>John Smith</h4>
+                                                <p><strong>Jabatan: </strong>Frontend Developer</p>
+                                                <ul class="list-unstyled">
+                                                    <li><i class="fa fa-envelope-o"></i> : test@gmail.com
+                                                    </li>
+                                                    <li><i class="fa fa-phone"></i> : 987 654 3210</li>
+                                                </ul>
                                             </div>
-                                        </div>
-                                        <div class="bottom_list">
-                                            <div class="right_button">
+                                            <div class="right">
+                                                <div class="profile_contacts">
+                                                    <img class="img-responsive" src="images/layout_img/msg2.png"
+                                                        alt="#" />
+                                                </div>
+                                            </div>
+                                            <div class="bottom_list">
+                                                <div class="right_button">
 
-                                                <td><a href="<?php echo base_url('profil')?>"><button
-                                                            class="btn btn-primary btn-xs"><i class="fa fa-user"> View
-                                                                Profile</i></button></a>
-                                                    <a href="<?php echo base_url('profil')?>"><button
-                                                            class="btn btn-danger btn-xs"><i class="fa fa-trash-o">
-                                                                Hapus
-                                                            </i></button></a>
-                                                    <a href="<?php echo base_url('editdatapribadi')?>"><button
-                                                            class="btn btn-warning btn-xs"><i class="fa fa-cogs"> Edit
-                                                            </i></button></a>
-                                                </td>
+                                                    <td><a href="<?php echo base_url('profil')?>"><button
+                                                                class="btn btn-primary btn-xs"><i class="fa fa-user">
+                                                                    View
+                                                                    Profile</i></button></a>
+                                                        <a href="<?php echo base_url('profil')?>"><button
+                                                                class="btn btn-danger btn-xs"><i class="fa fa-trash-o">
+                                                                    Hapus
+                                                                </i></button></a>
+                                                        <a href="<?php echo base_url('editdatapribadi')?>"><button
+                                                                class="btn btn-warning btn-xs"><i class="fa fa-cogs">
+                                                                    Edit
+                                                                </i></button></a>
+                                                    </td>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                </main>
                             </div>
+                        </div>

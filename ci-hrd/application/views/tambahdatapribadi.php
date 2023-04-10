@@ -10,20 +10,24 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="form-group">
+                    <input type="hidden" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <div class="form-group">
                     <label for="formGroupExampleInput2">Nama</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Alamat</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Tanggal Lahir</label>
-                    <input type="date" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Jenis Kelamin</label>
-                    <select class="form-control" name="asli" require="true">
+                    <select class="form-control col-md-6" name="asli" require="true">
                         <option selected disabled>--Pilih--</option>
                         <option>Laki-Laki</option>
                         <option>Perempuan</option>
@@ -31,37 +35,46 @@
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Gaji</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Nomer Telpon</label>
-                    <input type="number" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="number" class="form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Email</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Alamat</label>
-                    <input type="text" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Tanggal Masuk</label>
-                    <input type="date" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
+                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Jabatan</label>
-                    <select class="form-control" name="asli" require="true">
-                        <option selected disabled>--Pilih--</option>
-                        <option>HARNIK</option>
-                        <option>HRD</option>
-                    </select>
+                    <input type="hidden" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Dibuat Pada</label>
-                    <input type="date" class="form-control" name="" id="formGroupExampleInput2" placeholder="">
-                </div><br>
-                <button type="submit" class="btn btn-primary">Simpan</button>
+                    <input type="hidden" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <div class="form-group">
+                    <input type="hidden" class="form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <br>
+                <td>
+                    <a href="<?php echo base_url('pribadi')?>"><button class="btn btn-danger btn-"><i
+                                class="fa fa-arrow-circle-left">
+                            </i> Back</button></a>
+                    <a href="<?php echo base_url('tambahdatakeluarga')?>"><button class="btn btn-primary btn-">Next <i
+                                class="fa fa-arrow-circle-right">
+                            </i></button></a>
+                </td>
                 </form>
             </main>
         </div>
