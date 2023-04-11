@@ -14,6 +14,9 @@
                     <div class="full graph_head">
                         <div class="heading1 margin_0">
                             <h2>DATA MUTASI KERJA</h2>
+                            <td><a href="<?php echo base_url('tambahdatamutasikerja')?>"><button
+                                        class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah
+                                            Data</i></button></a></td>
                         </div>
                     </div>
                     <div class="table_section padding_infor_info">
@@ -21,11 +24,11 @@
                             <table class="table table-hover data">
                                 <thead>
                                     <tr>
-                                        <th>Golongan</th>
+                                        <th>ID Mutasi</th>
+                                        <th>Karyawan</th>
                                         <th>Jabatan</th>
                                         <th>Tanggal Mulai</th>
                                         <th>Tanggal Selesai</th>
-                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -34,9 +37,7 @@
                                         <td>HRD</td>
                                         <td>1 Januari 2019</td>
                                         <td>12 Maret 2020</td>
-                                        <td><a href="<?php echo base_url('tambahdatamutasikerja')?>"><button
-                                                    class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah
-                                                        Data</i></button></a></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
