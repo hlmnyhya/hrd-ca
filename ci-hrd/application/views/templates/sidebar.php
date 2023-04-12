@@ -39,8 +39,9 @@
                                 class="dropdown-toggle"><i class="fa fa-area-chart yellow_color"></i> <span>Riwayat
                                     Golongan</span></a>
                             <ul class="collapse list-unstyled" id="additional_page">
-                            <li>
-                                    <a href="<?php echo base_url('trackrecord')?>">> <span>Track Record Golongan</span></a>
+                                <li>
+                                    <a href="<?php echo base_url('trackrecord')?>">> <span>Track Record
+                                            Golongan</span></a>
                                 </li>
                                 <li>
                                     <a href="<?php echo base_url('datagolongan')?>">> <span>Data Golongan</span></a>
@@ -53,7 +54,8 @@
                             <ul class="collapse list-unstyled" id="apps">
                                 <!-- <li><a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Ricord Jabatan By Name</span></a></li> -->
                                 <li>
-                                    <a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Record Jabatan </span></a>
+                                    <a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Record Jabatan
+                                        </span></a>
                                 </li>
                                 <li>
                                     <a href="<?php echo base_url('datamutasi')?>">> <span>Data Mutasi Kerja</span></a>
@@ -91,10 +93,13 @@
                                                     src="<?php echo base_url();?>assets/images/layout_img/sicartha.png"
                                                     alt="#" /><span class="name_user">Admin</a>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="<?php echo base_url('myprofile');?>">My Profile</a>
-                                                <a class="dropdown-item" href="<?php echo base_url('settings');?>">Settings</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('myprofile');?>">My
+                                                    Profile</a>
+                                                <a class="dropdown-item"
+                                                    href="<?php echo base_url('settings');?>">Settings</a>
                                                 <a class="dropdown-item" href="<?php echo base_url('help');?>">Help</a>
-                                                <a class="dropdown-item" href="#"><span>Log Out</span> <i
+                                                <a class="dropdown-item"
+                                                    href="<?php echo base_url('login');?>"><span>Log Out</span> <i
                                                         class="fa fa-sign-out"></i></a>
                                             </div>
                                         </li>
