@@ -29,6 +29,9 @@
                 </div>
                 <br>
                 <td>
+                    <a href="<?php echo base_url('pribadi')?>"><button class="btn btn-danger btn-"><i
+                                class="fa fa-arrow-circle-left">
+                            </i> Cancel</button></a>
                     <button type="submit" class="btn btn-primary btn-">Simpan <i class="fa fa-save">
                         </i></button>
 

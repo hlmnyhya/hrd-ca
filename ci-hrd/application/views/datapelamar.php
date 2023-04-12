@@ -47,7 +47,7 @@
                                             <div class="bottom_list">
                                                 <div class="right_button">
 
-                                                    <td><a href="<?php echo base_url('profil')?>"><button
+                                                    <td><a href="<?php echo base_url('profilepelamar')?>"><button
                                                                 class="btn btn-primary btn-xs"><i class="fa fa-user">
                                                                     View
                                                                     Profile</i></button></a>
