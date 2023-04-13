@@ -3282,20 +3282,6 @@ table.projects tr td:first-child {
     overflow: hidden;
 }
 
-.logo_login {
-    background: url('wt.jpg') !important;
-    padding: 50px 0;
-    background-position: center center;
-    position: relative;
-}
-
-.logo-login-sawit {
-    background: url('images/layout_img/sawit.jpg') !important;
-    padding: 50px 0;
-    background-position: center center;
-    position: relative;
-}
-
 
 
 .logo_login::after {
