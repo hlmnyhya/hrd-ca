@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css');?>" />
     <!-- site css -->
     <link rel=" stylesheet" href="<?= base_url();?>assets/style.css" />
+    <link rel=" stylesheet" href="<?= base_url();?>assets/style2.css" />
     <!-- responsive css -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/responsive.css" />
     <!-- color css -->
