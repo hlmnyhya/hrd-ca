@@ -69,6 +69,18 @@
                                 <li><a href="<?php echo base_url('datapelamar')?>">> <span>Data </span></a></li>
                             </ul>
                         </li>
+                        <li><a href="<?php echo base_url('dashboard')?>"><i class="fa fa-bars"></i>
+                                <span>Menu Akses</span></a>
+                        </li>
+                        <li><a href="<?php echo base_url('mpp')?>"><i class="fa fa-search"></i>
+                                <span>MPP</span></a>
+                        </li>
+                        <li><a href="<?php echo base_url('thl')?>"><i class="fa fa-bomb "></i>
+                                <span>THL</span></a>
+                        </li>
+                        <li><a href="<?php echo base_url('user')?>"><i class="fa fa-user"></i>
+                                <span>User</span></a>
+                        </li>
                     </ul>
                 </div>
             </nav>

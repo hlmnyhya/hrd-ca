@@ -18,12 +18,16 @@
                     <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Alamat</label>
+                    <label for="formGroupExampleInput2">Alamat KTP</label>
                     <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Tanggal Lahir</label>
-                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                    <label for="formGroupExampleInput2">Alamat Domisili</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Agama</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Jenis Kelamin</label>
@@ -34,26 +38,48 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Gaji</label>
+                    <label for="formGroupExampleInput2">Pendidikan</label>
                     <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Nomer Telpon</label>
+                    <label for="formGroupExampleInput2">Jurusan</label>
                     <input type="number" class="form-control col-md-6" name="" id="formGroupExampleInput2"
                         placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Email</label>
-                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                    <label for="formGroupExampleInput2">Tanggal Lahir</label>
+                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Alamat</label>
+                    <label for="formGroupExampleInput2">Usia</label>
                     <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">Tanggal Masuk</label>
                     <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Masa Kerja</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Divisi</label>
+                    <select class="form-control col-md-6" name="asli" require="true">
+                        <option selected disabled>--Pilih--</option>
+                        <option>HRD</option>
+                        <option>MANAGER</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Jabatan</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Status Karyawan Terakhir</label>
+                    <select class="form-control col-md-6" name="asli" require="true">
+                        <option selected disabled>--Pilih--</option>
+                        <option>-</option>
+                        <option>-</option>
                 <div class="form-group">
                     <input type="hidden" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
                         placeholder="">

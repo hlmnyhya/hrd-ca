@@ -18,23 +18,20 @@
                         placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Nama</label>
+                    <label for="formGroupExampleInput2">Istri_Suami</label>
                     <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInp ut2">Hubungan</label>
+                    <label for="formGroupExampleInp ut2">Anak1</label>
                     <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Tanggal Lahir</label>
-                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                    <label for="formGroupExampleInput2">Anak2</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Jenis Kelamin</label>
-                    <select class="form-control col-md-6" name="asli" require="true">
-                        <option selected disabled>--Pilih--</option>
-                        <option>Laki-Laki</option>
-                        <option>Perempuan</option>
+                    <label for="formGroupExampleInput2">Anak3</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                     </select>
                 </div>
                 <br>

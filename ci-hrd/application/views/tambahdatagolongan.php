@@ -15,25 +15,30 @@
                         placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Jabatan</label>
+                    <label for="formGroupExampleInput2">BPJS-TK</label>
                     <input type="text" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
                         placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Tanggal Mulai</label>
-                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                    <label for="formGroupExampleInput2">BPJS-KES</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInp ut2">Tanggal Selesai</label>
-                    <input type="date" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                    <label for="formGroupExampleInp ut2">PKWT2-Selesai</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInp ut2">NPWP</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
                 </div>
                 <br>
                 <td>
                     <a href="<?php echo base_url('pribadi')?>"><button class="btn btn-danger btn-"><i
                                 class="fa fa-arrow-circle-left">
                             </i> Cancel</button></a>
-                    <button type="submit" class="btn btn-primary btn-">Simpan <i class="fa fa-save">
-                        </i></button>
+                    <a href="<?php echo base_url('tambahdatakaryawan')?>"><button class="btn btn-primary btn-">Next <i
+                                class="fa fa-arrow-circle-right">
+                            </i></button></a>
 
                 </td>
                 </form>
