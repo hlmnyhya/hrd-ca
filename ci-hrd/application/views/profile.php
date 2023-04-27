@@ -74,40 +74,17 @@
                                                                            class="btn btn-warning btn-xs"><i
                                                                                class="fa fa-info-circle">
                                                                                Golongan</i></button></a> &nbsp; &nbsp;
-                                                                   <a href="<?php echo base_url('tambahdatapribadi')?>"><button
+                                                                   <a href="<?php echo base_url('statuskeluarga')?>"><button
                                                                            class="btn btn-danger btn-xs"><i
-                                                                               class="fa fa-family"> Profil
-                                                                               Keluarga</i></button></a>
+                                                                               class="fa fa-child"> Profil
+                                                                               Keluarga</i></button></a> &nbsp; &nbsp;
+                                                                   <a href="<?php echo base_url('statuskaryawan')?>"><button
+                                                                           class="btn btn-success btn-xs"><i
+                                                                               class="fa fa-users"> Status
+                                                                               Karyawan</i></button></a>
                                                                </div>
                                                            </nav>
-                                                           <div class="tab-content" id="nav-tabContent">
-                                                               <div class="tab-pane fade" id="project_worked"
-                                                                   role="tabpanel" aria-labelledby="nav-profile-tab">
-                                                                   <p>Sed ut perspiciatis unde omnis iste natus error
-                                                                       sit voluptatem accusantium doloremque
-                                                                       laudantium, totam rem aperiam, eaque ipsa quae
-                                                                       ab illo inventore veritatis et
-                                                                       quasi architecto beatae vitae dicta sunt
-                                                                       explicabo. Nemo enim ipsam voluptatem quia
-                                                                       voluptas sit aspernatur aut odit aut fugit, sed
-                                                                       quia consequuntur magni dolores eos
-                                                                       qui ratione voluptatem sequi nesciunt.
-                                                                   </p>
-                                                               </div>
-                                                               <div class="tab-pane fade" id="profile_section"
-                                                                   role="tabpanel" aria-labelledby="nav-contact-tab">
-                                                                   <p>Sed ut perspiciatis unde omnis iste natus error
-                                                                       sit voluptatem accusantium doloremque
-                                                                       laudantium, totam rem aperiam, eaque ipsa quae
-                                                                       ab illo inventore veritatis et
-                                                                       quasi architecto beatae vitae dicta sunt
-                                                                       explicabo. Nemo enim ipsam voluptatem quia
-                                                                       voluptas sit aspernatur aut odit aut fugit, sed
-                                                                       quia consequuntur magni dolores eos
-                                                                       qui ratione voluptatem sequi nesciunt.
-                                                                   </p>
-                                                               </div>
-                                                           </div>
+
                                                        </div>
                                                    </div>
                                                </div>

@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/dataTables.bootstrap.css">
     <!-- site icon -->
     <link rel="icon" href="<?php echo base_url();?>assets/images/logo/logo.png" type="image/png" />
+
     <!-- bootstrap css -->
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css');?>" />
     <!-- site css -->

@@ -15,7 +15,7 @@
                                <div class="white_shd full margin_bottom_30">
                                    <div class="full graph_head">
                                        <div class="heading1 margin_0">
-                                           <h2>Status Karyawan</h2>
+                                           <h2>Golongan</h2>
                                        </div>
                                    </div>
                                    <div class="full price_table padding_infor_info">
@@ -61,10 +61,14 @@
                                                                            class="btn btn-danger btn-"><i
                                                                                class="fa fa-arrow-circle-left">
                                                                            </i> Back</button></a> &nbsp; &nbsp;
-                                                                   <a href="<?php echo base_url('tambahdatapribadi')?>"><button
-                                                                           class="btn btn-primary btn-xs"><i
-                                                                               class="fa fa-eye"> Profil
-                                                                               Keluarga</i></button></a>
+                                                                   <a href="<?php echo base_url('statuskeluarga')?>"><button
+                                                                           class="btn btn-warning btn-xs"><i
+                                                                               class="fa fa-child"> Profil
+                                                                               Keluarga</i></button></a> &nbsp; &nbsp;
+                                                                   <a href="<?php echo base_url('statuskaryawan')?>"><button
+                                                                           class="btn btn-success btn-xs"><i
+                                                                               class="fa fa-users"> Status
+                                                                               Karyawan</i></button></a>
                                                                </div>
                                                            </nav>
                                                            <div class="tab-content" id="nav-tabContent">

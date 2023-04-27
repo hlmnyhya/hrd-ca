@@ -4,7 +4,7 @@
                        <div class="row column_title">
                            <div class="col-md-12">
                                <div class="page_title">
-                                   <h2>STATUS KELUARGA</h2>
+                                   <h2>STATUS KARYAWAN</h2>
                                </div>
                            </div>
                        </div>
@@ -26,21 +26,22 @@
                                                <div class="full dis_flex center_text">
                                                    <div class="table_section padding_infor_info">
                                                        <div class="table-responsive-sm">
-                                                           <div class="profile_img"><img width="180"
-                                                                   class="rounded-circle"
-                                                                   src="images/layout_img/user_img.jpg" alt="#" />
-                                                           </div>
                                                            <div class="profile_contant">
                                                                <div class="contact_inner">
-                                                                   <h3>John Smith</h3>
                                                                    <table
                                                                        class="table table-striped table-bordered data">
                                                                        <thead>
                                                                            <tr>
-                                                                               <th>Istri_suami</th>
-                                                                               <th>Anak1</th>
-                                                                               <th>Anak2</th>
-                                                                               <th>Anak3</th>
+                                                                               <th>PKWT-Mulai</th>
+                                                                               <th>PKWT-Selesai</th>
+                                                                               <th>PKWT2-Mulai</th>
+                                                                               <th>PKWT2-Selesai</th>
+                                                                               <th>THT-Mulia</th>
+                                                                               <th>THT-Selesai</th>
+                                                                               <th>THL-Mulai</th>
+                                                                               <th>THL-Selesai</th>
+                                                                               <th>Percobaan-Mulai</th>
+                                                                               <th>Percobaan-Selesai</th>
                                                                            </tr>
                                                                        </thead>
                                                                        <tbody>
@@ -73,40 +74,13 @@
                                                                                    Golongan</i></button></a> &nbsp;
                                                                        &nbsp;
                                                                        <a
-                                                                           href="<?php echo base_url('statuskaryawan')?>"><button
+                                                                           href="<?php echo base_url('statuskeluarga')?>"><button
                                                                                class="btn btn-success btn-xs"><i
-                                                                                   class="fa fa-users"> Status
-                                                                                   Karyawan</i></button></a>
+                                                                                   class="fa fa-child"> Profil
+                                                                                   Keluarga</i></button></a>
                                                                    </div>
                                                            </nav>
-                                                           <div class="tab-content" id="nav-tabContent">
-                                                               <div class="tab-pane fade" id="project_worked"
-                                                                   role="tabpanel" aria-labelledby="nav-profile-tab">
-                                                                   <p>Sed ut perspiciatis unde omnis iste natus error
-                                                                       sit voluptatem accusantium doloremque
-                                                                       laudantium, totam rem aperiam, eaque ipsa quae
-                                                                       ab illo inventore veritatis et
-                                                                       quasi architecto beatae vitae dicta sunt
-                                                                       explicabo. Nemo enim ipsam voluptatem quia
-                                                                       voluptas sit aspernatur aut odit aut fugit, sed
-                                                                       quia consequuntur magni dolores eos
-                                                                       qui ratione voluptatem sequi nesciunt.
-                                                                   </p>
-                                                               </div>
-                                                               <div class="tab-pane fade" id="profile_section"
-                                                                   role="tabpanel" aria-labelledby="nav-contact-tab">
-                                                                   <p>Sed ut perspiciatis unde omnis iste natus error
-                                                                       sit voluptatem accusantium doloremque
-                                                                       laudantium, totam rem aperiam, eaque ipsa quae
-                                                                       ab illo inventore veritatis et
-                                                                       quasi architecto beatae vitae dicta sunt
-                                                                       explicabo. Nemo enim ipsam voluptatem quia
-                                                                       voluptas sit aspernatur aut odit aut fugit, sed
-                                                                       quia consequuntur magni dolores eos
-                                                                       qui ratione voluptatem sequi nesciunt.
-                                                                   </p>
-                                                               </div>
-                                                           </div>
+
                                                        </div>
                                                    </div>
                                                </div>
