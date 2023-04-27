@@ -15,7 +15,7 @@
                                <div class="white_shd full margin_bottom_30">
                                    <div class="full graph_head">
                                        <div class="heading1 margin_0">
-                                           <h2>PROFILE</h2>
+                                           <h2>Status Karyawan</h2>
                                        </div>
                                    </div>
                                    <div class="full price_table padding_infor_info">
@@ -26,31 +26,22 @@
                                                <div class="full dis_flex center_text">
                                                    <div class="table_section padding_infor_info">
                                                        <div class="table-responsive-sm">
-                                                           <div class="profile_img"><img width="180"
-                                                                   class="rounded-circle"
-                                                                   src="images/layout_img/user_img.jpg" alt="#" />
-                                                           </div>
                                                            <div class="profile_contant">
                                                                <div class="contact_inner">
-                                                                   <h3>John Smith</h3>
                                                                    <table
                                                                        class="table table-striped table-bordered data">
                                                                        <thead>
                                                                            <tr>
-                                                                               <th>Alamat KTP</th>
-                                                                               <th>Alamat Domisili</th>
-                                                                               <th>Agama</th>
-                                                                               <th>Jenis Kelamin</th>
-                                                                               <th>Pendidikan</th>
-                                                                               <th>Jurusan</th>
-                                                                               <th>Tanggal Lahir</th>
-                                                                               <th>Usia</th>
-                                                                               <th>Tanggal Masuk</th>
-                                                                               <th>Masa Kerja</th>
-                                                                               <th>Divisi</th>
-                                                                               <th>Jabatan</th>
-                                                                               <th>Status Karyawan Terakhir</th>
-                                                                               <th>Golongan</th>
+                                                                               <th>PKWT-Mulai</th>
+                                                                               <th>PKWT-Selesai</th>
+                                                                               <th>PKWT2-Mulai</th>
+                                                                               <th>PKWT2-Selesai</th>
+                                                                               <th>THT-Mulai</th>
+                                                                               <th>THT-Selesai</th>
+                                                                               <th>THL-Mulai</th>
+                                                                               <th>THL-Selesai</th>
+                                                                               <th>Percobaan-Mulai</th>
+                                                                               <th>Percobaan-Selesai</th>
                                                                            </tr>
                                                                        </thead>
                                                                        <tbody>
@@ -71,7 +62,7 @@
                                                        <div class="tabbar">
                                                            <nav>
                                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                                                   <a href="<?php echo base_url('statuskaryawan')?>"><button
+                                                                   <a href="<?php echo base_url('tambahdatapribadi')?>"><button
                                                                            class="btn btn-primary btn-xs"><i
                                                                                class="fa fa-eye"> Status
                                                                                Karyawan</i></button></a> &nbsp; &nbsp;
