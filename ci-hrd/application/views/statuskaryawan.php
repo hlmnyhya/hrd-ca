@@ -62,14 +62,14 @@
                                                        <div class="tabbar">
                                                            <nav>
                                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                                   <a href="<?php echo base_url('profil')?>"><button
+                                                                           class="btn btn-danger btn-"><i
+                                                                               class="fa fa-arrow-circle-left">
+                                                                           </i> Back</button></a> &nbsp; &nbsp;
                                                                    <a href="<?php echo base_url('tambahdatapribadi')?>"><button
                                                                            class="btn btn-primary btn-xs"><i
-                                                                               class="fa fa-eye"> Status
-                                                                               Karyawan</i></button></a> &nbsp; &nbsp;
-                                                                   <a href="<?php echo base_url('tambahdatapribadi')?>"><button
-                                                                           class="btn btn-primary btn-xs"><i
-                                                                               class="fa fa-eye"> Status
-                                                                               Karyawan</i></button></a>
+                                                                               class="fa fa-eye"> Profil
+                                                                               Keluarga</i></button></a>
                                                                </div>
                                                            </nav>
                                                            <div class="tab-content" id="nav-tabContent">

@@ -77,8 +77,8 @@
                                                                                Karyawan</i></button></a> &nbsp; &nbsp;
                                                                    <a href="<?php echo base_url('tambahdatapribadi')?>"><button
                                                                            class="btn btn-primary btn-xs"><i
-                                                                               class="fa fa-eye"> Status
-                                                                               Karyawan</i></button></a>
+                                                                               class="fa fa-eye"> Profil
+                                                                               Keluarga</i></button></a>
                                                                </div>
                                                            </nav>
                                                            <div class="tab-content" id="nav-tabContent">
