@@ -4,7 +4,7 @@
                        <div class="row column_title">
                            <div class="col-md-12">
                                <div class="page_title">
-                                   <h2>PROFILE PELAMAR</h2>
+                                   <h2>PROFILE PRIBADI</h2>
                                </div>
                            </div>
                        </div>
@@ -24,25 +24,33 @@
                                            <!-- profile image -->
                                            <div class="col-lg-12">
                                                <div class="full dis_flex center_text">
-                                                   <div class="profile_img"><img width="180" class="rounded-circle"
-                                                           src="images/layout_img/user_img.jpg" alt="#" /></div>
-                                                   <div class="profile_contant">
-                                                       <div class="contact_inner">
-                                                           <h3>John Smith</h3>
-                                                           <table class="table table-striped table-bordered data">
-                                                               <thead>
-                                                                   <tr>
-                                                                       <th>Nama</th>
-                                                                       <th>Alamat</th>
-                                                                       <th>Tanggal Lahir</th>
-                                                                       <th>Jenis Kelamin</th>
-                                                                       <th>Nomer Telepon</th>
-                                                                       <th>Email</th>
-                                                                       <th>File</th>
-                                                                       <th></th>
-                                                                       <table>
-                                                                   </tr>
-                                                               </thead>
+                                                   <div class="table_section padding_infor_info">
+                                                       <div class="table-responsive-sm">
+                                                           <div class="profile_img"><img width="180"
+                                                                   class="rounded-circle"
+                                                                   src="images/layout_img/user_img.jpg" alt="#" />
+                                                           </div>
+                                                           <div class="profile_contant">
+                                                               <div class="contact_inner">
+                                                                   <h3>John Smith</h3>
+                                                                   <table
+                                                                       class="table table-striped table-bordered data">
+                                                                       <thead>
+                                                                           <tr>
+                                                                               <th>Istri_suami</th>
+                                                                               <th>Anak1</th>
+                                                                               <th>Anak2</th>
+                                                                               <th>Anak3</th> 
+                                                                           </tr>
+                                                                       </thead>
+                                                                       <tbody>
+                                                                           <tr>
+                                                                               <td>John</td>
+                                                                           </tr>
+                                                                       </tbody>
+                                                                   </table>
+                                                               </div>
+                                                           </div>
                                                        </div>
 
                                                    </div>
@@ -53,13 +61,14 @@
                                                        <div class="tabbar">
                                                            <nav>
                                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                                                   <a class="nav-item nav-link" id="nav-profile-tab"
-                                                                       data-toggle="tab" href="#project_worked"
-                                                                       role="tab" aria-selected="false">Projects Worked
-                                                                       on</a>
-                                                                   <a class="nav-item nav-link" id="nav-contact-tab"
-                                                                       data-toggle="tab" href="#profile_section"
-                                                                       role="tab" aria-selected="false">Profile</a>
+                                                                   <a href="<?php echo base_url('statuskaryawan')?>"><button
+                                                                           class="btn btn-primary btn-xs"><i
+                                                                               class="fa fa-eye"> Status
+                                                                               Karyawan</i></button></a> &nbsp; &nbsp;
+                                                                   <a href="<?php echo base_url('tambahdatapribadi')?>"><button
+                                                                           class="btn btn-primary btn-xs"><i
+                                                                               class="fa fa-eye"> Status
+                                                                               Karyawan</i></button></a>
                                                                </div>
                                                            </nav>
                                                            <div class="tab-content" id="nav-tabContent">

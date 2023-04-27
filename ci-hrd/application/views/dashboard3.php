@@ -4,7 +4,7 @@
                        <div class="row column_title">
                            <div class="col-md-12">
                                <div class="page_title">
-                                   <h2>Dashboard CA</h2>
+                                   <h2>Dashboard PKS</h2>
                                </div>
                            </div>
                        </div>
