@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class StatusKaryawan extends CI_Controller {
+class Golongan extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class StatusKaryawan extends CI_Controller {
 	{
 		$this->load->view('templates/header');
         $this->load->view('templates/sidebar');
-        $this->load->view('statuskaryawan');
+        $this->load->view('golongan');
         $this->load->view('templates/footer');
 	}
 }

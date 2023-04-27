@@ -32,16 +32,11 @@
                                                                        class="table table-striped table-bordered data">
                                                                        <thead>
                                                                            <tr>
-                                                                               <th>PKWT-Mulai</th>
-                                                                               <th>PKWT-Selesai</th>
-                                                                               <th>PKWT2-Mulai</th>
+                                                                               <th>Golongan</th>
+                                                                               <th>BPJS-TK</th>
+                                                                               <th>BPJS-Kes</th>
                                                                                <th>PKWT2-Selesai</th>
-                                                                               <th>THT-Mulai</th>
-                                                                               <th>THT-Selesai</th>
-                                                                               <th>THL-Mulai</th>
-                                                                               <th>THL-Selesai</th>
-                                                                               <th>Percobaan-Mulai</th>
-                                                                               <th>Percobaan-Selesai</th>
+                                                                               <th>NPWP</th>
                                                                            </tr>
                                                                        </thead>
                                                                        <tbody>

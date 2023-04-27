@@ -50,7 +50,6 @@
                                                                                <th>Divisi</th>
                                                                                <th>Jabatan</th>
                                                                                <th>Status Karyawan Terakhir</th>
-                                                                               <th>Golongan</th>
                                                                            </tr>
                                                                        </thead>
                                                                        <tbody>
@@ -71,13 +70,13 @@
                                                        <div class="tabbar">
                                                            <nav>
                                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                                                   <a href="<?php echo base_url('statuskaryawan')?>"><button
-                                                                           class="btn btn-primary btn-xs"><i
-                                                                               class="fa fa-eye"> Status
-                                                                               Karyawan</i></button></a> &nbsp; &nbsp;
+                                                                   <a href="<?php echo base_url('golongan')?>"><button
+                                                                           class="btn btn-warning btn-xs"><i
+                                                                               class="fa fa-info-circle">
+                                                                               Golongan</i></button></a> &nbsp; &nbsp;
                                                                    <a href="<?php echo base_url('tambahdatapribadi')?>"><button
-                                                                           class="btn btn-primary btn-xs"><i
-                                                                               class="fa fa-eye"> Profil
+                                                                           class="btn btn-danger btn-xs"><i
+                                                                               class="fa fa-family"> Profil
                                                                                Keluarga</i></button></a>
                                                                </div>
                                                            </nav>
