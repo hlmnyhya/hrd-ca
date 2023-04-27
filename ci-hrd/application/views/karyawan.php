@@ -24,12 +24,19 @@
                             <table class="table table-hover data">
                                 <thead>
                                     <tr>
-                                        <th>Nama Karyawan</th>
-                                        <th>Jabatan</th>
-                                        <th>Golongan</th>
-                                        <th>Riwayat Jabatan</th>
+                                        <th>Alamat KTP</th>
+                                        <th>Alamat Domisili</th>
+                                        <th>Agama</th>
+                                        <th>Jenis Kelamin</th>
+                                        <th>Pendidikan</th>
+                                        <th>Tanggal Lahir</th>
+                                        <th>Usia</th>
+                                        <th>Tanggal Masuk</th>
                                         <th>Masa Kerja</th>
-                                        <th>Aksi</th>
+                                        <th>Divisi</th>
+                                        <th>Jabatan</th>
+                                        <th>Status Karyawan Terakhir</th>
+                                        <th>Golongan</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -39,6 +46,14 @@
                                         <td>john@example.com</td>
                                         <td>A</td>
                                         <td>d</td>
+                                        <td>d</td>
+                                        <td>d</td>
+                                        <td>d</td>
+                                        <td>d</td>
+                                        <td>d</td>
+                                        <td>d</td>
+                                        <td>d</td>
+                                        <td>d</td>
                                         <td><a href="<?php echo base_url('detailkaryawan')?>"><button
                                                     class="btn btn-primary btn-sm"><i class="fa fa-eye">
                                                         Detail</i></button></a>
@@ -47,7 +62,8 @@
                                                         Hapus
                                                     </i></button></a>
                                             <a href="<?php echo base_url('editdatakaryawan')?>"><button
-                                                    class="btn btn-warning btn-sm"><i class="fa fa-cogs"> Edit
+                                                    class="btn btn-warning btn-sm"><i class="fa fa-cogs"> 
+                                                        Edit
                                                     </i></button></a>
                                         </td>
                                     </tr>
