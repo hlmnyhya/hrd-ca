@@ -69,8 +69,13 @@
                                 <li><a href="<?php echo base_url('datapelamar')?>">> <span>Data </span></a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php echo base_url('dashboard')?>"><i class="fa fa-bars"></i>
-                                <span>Menu Akses</span></a>
+                        <li>
+                            <a href="#element12" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                                    class="fa fa-bars"></i> <span>Menu</span></a>
+                            <ul class="collapse list-unstyled" id="element12">
+                                <li><a href="<?php echo base_url('menuakses')?>">> <span>Menu Akses</span></a></li>
+                                <li><a href="<?php echo base_url('submenu')?>">> <span>Sub Menu</span></a></li>
+                            </ul>
                         </li>
                         <li><a href="<?php echo base_url('mpp')?>"><i class="fa fa-search"></i>
                                 <span>MPP</span></a>
@@ -78,8 +83,13 @@
                         <li><a href="<?php echo base_url('thl')?>"><i class="fa fa-bomb "></i>
                                 <span>THL</span></a>
                         </li>
-                        <li><a href="<?php echo base_url('user')?>"><i class="fa fa-user"></i>
-                                <span>User</span></a>
+                        <li>
+                            <a href="#element13" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                                    class="fa fa-user"></i> <span>User</span></a>
+                            <ul class="collapse list-unstyled" id="element13">
+                                <li><a href="<?php echo base_url('user')?>">> <span>User</span></a></li>
+                                <li><a href="<?php echo base_url('usergroup')?>">> <span>User Group</span></a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>

@@ -3,7 +3,7 @@
         <div class="row column_title">
             <div class="col-lg-12">
                 <div class="page_title">
-                    <h2>LIST DATA MPP</h2>
+                    <h2>USER GROUP</h2>
                 </div>
             </div>
         </div>
@@ -13,8 +13,8 @@
                 <div class="white_shd full margin_bottom_30">
                     <div class="full graph_head">
                         <div class="heading1 margin_0">
-                            <h2>DATA MPP</h2>
-                            <td><a href="<?php echo base_url('tambahdatampp')?>"><button
+                            <h2>DATA USER</h2>
+                            <td><a href="<?php echo base_url('tambahdatapribadi')?>"><button
                                         class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah
                                             Data</i></button></a></td>
                         </div>
@@ -24,12 +24,14 @@
                             <table class="table table-hover data">
                                 <thead>
                                     <tr>
-                                        <th>Unit</th>
-                                        <th>Posisi</th>
-                                        <th>Total</th>
-                                        <th>Total Karyawan</th>
-                                        <th>Vacant</th>
+                                        <th>Nama</th>
+                                        <th>Nik</th>
+                                        <th>id_Divisi</th>
+                                        <th>id_jabatan</th>
+                                        <th>Tanggal Masuk</th>
+                                        <th>Tanggal Keluar</th>
                                         <th>Keterangan</th>
+                                        <th>Status</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
@@ -39,6 +41,8 @@
                                         <td>Doe</td>
                                         <td>john@example.com</td>
                                         <td>A</td>
+                                        <td>d</td>
+                                        <td>d</td>
                                         <td>d</td>
                                         <td>d</td>
                                         <td><a href="<?php echo base_url('detailkaryawan')?>"><button
