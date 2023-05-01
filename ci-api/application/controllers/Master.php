@@ -2,10 +2,10 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-    require(APPPATH . 'libraries/REST_Controller.php');
-    use Restserver\Libraries\REST_Controller;
+    require(APPPATH . 'libraries/RESTController.php');
+    use Restserver\Libraries\RESTController;
+    
     class Master extends REST_Controller {
-
     function __construct() {
         parent::__construct();
         $this->load->model('m_user','muser');
@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         $this->_datetime = date('Y-m-d H:i:s');
         ini_set('max_execution_time', 30);
     }
- //------------------------------------------------------------USER-----------------------------------------------------------------//
+//------------------------------------------------------------USER-----------------------------------------------------------------//
     public function User_get(){
         $id= $this->get('id');
         $offset = $this->get('offset');
@@ -23,7 +23,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             
         }else{
             $user= $this->muser->GetUser($id);
-
         }
         if ($user) {
             $this->response([
