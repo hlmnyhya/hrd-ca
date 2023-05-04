@@ -20,10 +20,17 @@
         return $result;
     }
 
-    public function editMpp($data,$id)
+    public function editMpp($id)
     {
-        $this->db->where('id_Mpp', $id);
-        $this->db->update('Mpp', $data);  
+        $this->db->where('id_mpp',$id);
+        $query = $this->db->get('mpp');
+        return $query->row();
+    }
+
+    public function updateMpp($id, $data)
+    {
+        $this->db->where('id_mpp', $id);
+        $this->db->update('mpp', $data);  
         return $this->db->affected_rows();
     }
 

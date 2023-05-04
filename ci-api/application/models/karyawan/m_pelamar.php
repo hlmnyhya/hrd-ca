@@ -20,7 +20,14 @@
         return $result;
     }
 
-    public function editPelamar($data,$id)
+    public function editPelamar($id)
+    {
+        $this->db->where('id_pelamar',$id);
+        $query = $this->db->get('pelamar');
+        return $query->row();
+    }
+
+    public function updatePelamar($id, $data)
     {
         $this->db->where('id_pelamar', $id);
         $this->db->update('pelamar', $data);  

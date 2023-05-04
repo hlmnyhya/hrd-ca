@@ -25,7 +25,7 @@
         }
         
     }
-        public function getJabatanbyid($id=null)
+        public function getJabatanbyid($id)
     {
         if ($id === null) {
             $this->db->select('jabatan.*');
@@ -45,7 +45,6 @@
 
             return $result;
         }
-        
     }
     
     public function addJabatan($data)
@@ -54,11 +53,24 @@
         return $result;
     }
 
-    public function editJabatan($data,$id)
+    // public function editJabatan($data,$id)
+    // {
+    //     $this->db->where('id_jabatan', $id);
+    //     $this->db->update('jabatan', $data);  
+    //     return $this->db->affected_rows();
+    // }
+
+    public function editjabatan($id)
+    {
+        $this->db->where('id_jabatan',$id);
+        $query = $this->db->get('jabatan');
+        return $query->row();
+    }
+
+    public function updatejabatan($id, $data)
     {
         $this->db->where('id_jabatan', $id);
-        $this->db->update('jabatan', $data);  
-        return $this->db->affected_rows();
+        return $this->db->update('jabatan', $data);
     }
 
     public function deletejabatan($id)

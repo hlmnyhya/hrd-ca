@@ -54,10 +54,17 @@
         return $result;
     }
 
-    public function editKeluarga($data,$id)
+    public function editKeluarga($id)
+    {
+        $this->db->where('id_keluarga',$id);
+        $query = $this->db->get('keluarga');
+        return $query->row();
+    }
+
+    public function ubahKeluarga($id, $data)
     {
         $this->db->where('id_keluarga', $id);
-        $this->db->update('keluarga', $data);  
+        return $this->db->update('keluarga', $data);  
         return $this->db->affected_rows();
     }
 

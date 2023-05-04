@@ -8,10 +8,10 @@ class M_Sub_Menu extends CI_Model {
     {
         $aktif=1;
         if ($id === null) {
-            $result = $this->db->get('sub_menu')->result();
+            $result = $this->db->get('submenu')->result();
 
         }else {
-            $result = $this->db->get_where('sub_menu',['id_menu' => $id, 'in_aktif'=>$aktif ])->result();
+            $result = $this->db->get_where('submenu',['id_menu' => $id, 'in_aktif'=>$aktif ])->result();
         }
 
         return $result;

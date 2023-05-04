@@ -14,13 +14,31 @@
         }
     }
 
+    public function getKaryawanbyid($id)
+    {
+        if ($id===null) {
+            $result = $this->db->get('karyawan')->result();
+            return $result;              
+        }else {
+            $result = $this->db->get_where('karyawan',['id_karyawan' => $id])->result();
+            return $result;               
+        }
+    }
+
     public function addKaryawan($data)
     {
         $result = $this->db->insert('karyawan',$data); 
         return $result;
     }
 
-    public function editKaryawan($data,$id)
+    public function editKaryawan($id)
+    {
+        $this->db->where('id_karyawan',$id);
+        $query = $this->db->get('karyawan');
+        return $query->row();
+    }
+
+    public function updateKaryawan($id, $data)
     {
         $this->db->where('id_karyawan', $id);
         $this->db->update('karyawan', $data);  

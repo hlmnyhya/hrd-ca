@@ -6,15 +6,15 @@
         public function getUserGroup($id = null,$offset=null)
       {
         if ($id === null&& $offset===null) {
-          $result=$this->db->get('user_group')->result();
+          $result=$this->db->get('usergroup')->result();
           return $result;
         }elseif ($id === null&& $offset!==null) {
           $this->db->limit(15);
           $this->db->offset($offset);
-          $result=$this->db->get('user_group')->result();
+          $result=$this->db->get('usergroup')->result();
           return $result;
         }else{
-          $result=$this->db->get_where('user_group',['id_usergroup'=>$id])->result();
+          $result=$this->db->get_where('usergroup',['id_usergroup'=>$id])->result();
         return $result;
         }
       }
@@ -23,31 +23,36 @@
         if ($id === null) {
           return false;
         }else{
-          $this->db->like('user_group',$id);
-            $result=$this->db->get('user_group')->result();
+          $this->db->like('usergroup',$id);
+            $result=$this->db->get('usergroup')->result();
           return $result;
         }
       }
 
       public function addUserGroup($data)
       {
-          $this->db->insert('user_group',$data); 
+          $this->db->insert('usergroup',$data); 
           return $this->db->affected_rows();
       }
   
-      public function editUsergroup($data,$id)
+      public function editUsergroup($id)
+      {
+          $this->db->where('id_usergroup',$id);
+          $query = $this->db->get('usergroup');
+          return $query->row();
+      }
+
+      public function updateUsergroup($id, $data)
       {
           $this->db->where('id_usergroup', $id);
-          $this->db->update('user_group', $data);
+          $this->db->update('usergroup', $data);
           return $this->db->affected_rows();
-          
-
       }
   
       public function delUsergroup($id_usergroup)
       {
           $this->db->where('id_usergroup', $id_usergroup);
-          $this->db->delete('user_group');
+          $this->db->delete('usergroup');
           return $this->db->affected_rows();
                   
       }

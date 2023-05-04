@@ -3,7 +3,7 @@
     
     class M_divisi extends CI_Model{
         
-       public function getUser($id=null, $offset=null)
+       public function getDivisi($id=null, $offset=null)
     {
         if ($id === null) {
             $this->db->select('divisi.*');
@@ -25,7 +25,7 @@
         }
         
     }
-        public function getDivisibyid($id=null)
+        public function getDivisibyid($id)
     {
         if ($id === null) {
             $this->db->select('divisi.*');
@@ -54,10 +54,17 @@
         return $result;
     }
 
-    public function editDivisi($data,$id)
+    public function editdivisi($id)
+    {
+        $this->db->where('id_divisi',$id);
+        $query = $this->db->get('divisi');
+        return $query->row();
+    }
+
+    public function ubahDivisi($id, $data)
     {
         $this->db->where('id_divisi', $id);
-        $this->db->update('divisi', $data);  
+        return $this->db->update('divisi', $data);  
         return $this->db->affected_rows();
     }
 

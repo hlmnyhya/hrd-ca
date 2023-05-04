@@ -31,19 +31,19 @@ class M_Menu extends CI_Model {
     {
         $ac=1;
         if ($id === null) {
-            $result = $this->db->get('sub_menu')->result();
+            $result = $this->db->get('submenu')->result();
 
         }else {
-            $result = $this->db->get_where('sub_menu',['id_menu' => $id, 'in_aktif' => $ac])->result();
+            $result = $this->db->get_where('submenu',['id_menu' => $id, 'in_aktif' => $ac])->result();
         }
 
         return $result;
     }
     public function getMenuAkses($id = null, $ug = null)
     {
-        $this->db->select(' a.*, b.user_group, c.menu');
+        $this->db->select(' a.*, b.usergroup, c.menu');
         $this->db->from('menu_akses a');
-        $this->db->join('user_group b', 'a.id_usergroup = b.id_usergroup', 'left');
+        $this->db->join('usergroup b', 'a.id_usergroup = b.id_usergroup', 'left');
         $this->db->join('menu c', 'a.id_menu = c.id_menu', 'left');
         
         if ($ug!=null) {
@@ -61,8 +61,8 @@ class M_Menu extends CI_Model {
     public function cariMenuakses($id=null, $offset=null)
     {
         $query="
-            SELECT a.*, b.user_group, c.menu FROM menu_akses a
-            LEFT JOIN user_group b ON a.id_usergroup=b.id_usergroup
+            SELECT a.*, b.usergroup, c.menu FROM menu_akses a
+            LEFT JOIN usergroup b ON a.id_usergroup=b.id_usergroup
             LEFT JOIN menu c ON a.id_menu=c.id_menu
             WHERE a.id_usergroup LIKE '%$id%'
             
