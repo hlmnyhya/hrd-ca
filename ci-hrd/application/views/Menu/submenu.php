@@ -1,68 +1,89 @@
-<!-- end topbar -->
-<!-- dashboard inner -->
 <div class="midde_cont">
     <div class="container-fluid">
         <div class="row column_title">
             <div class="col-md-12">
                 <div class="page_title">
-                    <h2>SUB MENU</h2>
+                    <h2>Menu Akses</h2>
                 </div>
             </div>
         </div>
-        <!-- row -->
-        <div class="row column1">
-            <div class="col-md-12">
-                <div class="white_shd full margin_bottom_30">
-                    <div class="full graph_head">
-                        <div class="heading1 margin_0">
-                            <h2>MENU</h2>
-                            <td><a href="<?php echo base_url('tambahdatapribadi')?>"><button
-                                        class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah
-                                            Data</i></button></a></td>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="form-group" style="margin-left:25px;margin-right:25px;margin-top:25px;">
+                    <input type="hidden" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Sub Menu</label>
+                    <input type="text" class="form-control col-md-6" name="" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInp ut2">Url</label>
+                    <input type="number" class="form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <div class="form-group" style="margin-left:25px;margin-right:25px;margin-top:25px;">
+                    <input type="hidden" class=" form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInp ut2">Aktif</label>
+                    <input type="number" class="form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInp ut2">Icon</label>
+                    <input type="number" class="form-control col-md-6" name="" id="formGroupExampleInput2"
+                        placeholder="">
+                </div>
+                <td>
+                    <button type="submit" class="btn btn-primary btn-">Simpan <i class="fa fa-save">
+                        </i></button>
+                </td>
 
-                        </div>
-                    </div>
-                    <div class="full price_table padding_infor_info">
-                        <div class="row">
-                            <!-- column contact -->
-                            <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 profile_details margin_bottom_30">
-                                <main>
-                                    <div class="contact_blog">
-                                        <div class="contact_inner">
-                                            <div class="left">
-                                                <h4>John Smith</h4>
-                                                <p><strong>Jabatan: </strong>Frontend Developer</p>
-                                                <ul class="list-unstyled">
-                                                    <li><i class="fa fa-envelope-o"></i> : test@gmail.com
-                                                    </li>
-                                                    <li><i class="fa fa-phone"></i> : 987 654 3210</li>
-                                                </ul>
-                                            </div>
-                                            <div class="right">
-                                                <div class="profile_contacts">
-                                                    <img class="img-responsive" src="images/layout_img/msg2.png"
-                                                        alt="#" />
-                                                </div>
-                                            </div>
-                                            <div class="bottom_list">
-                                                <div class="right_button">
 
-                                                    <td><a href="<?php echo base_url('profil')?>"><button
-                                                                class="btn btn-primary btn-xs"><i class="fa fa-user">
-                                                                    View
-                                                                    Profile</i></button></a>
-                                                        <a href="<?php echo base_url('profil')?>"><button
-                                                                class="btn btn-danger btn-xs"><i class="fa fa-trash-o">
-                                                                    Hapus
-                                                                </i></button></a>
-                                                        <a href="<?php echo base_url('editdatapribadi')?>"><button
-                                                                class="btn btn-warning btn-xs"><i class="fa fa-cogs">
-                                                                    Edit
-                                                                </i></button></a>
-                                                    </td>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </main>
+
+                <div class="midde_cont" style="margin-left:25px;margin-right:25px;margin-top:25px;">
+                    <div class="container-fluid">
+                        <div class="row column_title">
+                            <div class="col-lg-12">
                             </div>
                         </div>
+                        <div class="row column1">
+                            <div class="col-md-12"></div>
+                            <div class="col-md-12">
+                                <div class="white_shd full margin_bottom_30">
+                                    <div class="full graph_head">
+                                        <div class="heading1 margin_0">
+                                            <h2>DATA</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table_section padding_infor_info">
+                                        <div class="table-responsive-sm">
+                                            <table class="table table-hover data">
+                                                <thead>
+                                                    <tr>
+                                                        <th>ID Mutasi</th>
+                                                        <th>Karyawan</th>
+                                                        <th>Jabatan</th>
+                                                        <th>Tanggal Mulai</th>
+                                                        <th>Tanggal Selesai</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>HRD</td>
+                                                        <td>1 Januari 2019</td>
+                                                        <td>12 Maret 2020</td>
+                                                        <td></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
