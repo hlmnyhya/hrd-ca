@@ -1,0 +1,40 @@
+<?php 
+    defined('BASEPATH') OR exit('No direct script access allowed');
+    
+    class M_karyawan extends CI_Model{
+    
+    public function getKaryawan($id= null)
+    {
+        if ($id===null) {
+            $result = $this->db->get('karyawan')->result();
+            return $result;              
+        }else {
+            $result = $this->db->get_where('karyawan',['id_karyawan' => $id])->result();
+            return $result;               
+        }
+    }
+
+    public function addKaryawan($data)
+    {
+        $result = $this->db->insert('karyawan',$data); 
+        return $result;
+    }
+
+    public function editKaryawan($data,$id)
+    {
+        $this->db->where('id_karyawan', $id);
+        $this->db->update('karyawan', $data);  
+        return $this->db->affected_rows();
+    }
+
+    public function deleteKaryawan($id)
+    {
+        $this->db->where('id_karyawan', $id);
+        $this->db->delete('karyawan');  
+        return $this->db->affected_rows();
+    }
+
+}
+
+/* End of file M_karyawan.php */
+        
