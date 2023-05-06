@@ -15,7 +15,7 @@ class Divisi extends RESTController {
         $this->load->model('master/m_divisi');
     }
 
-    public function index_get()
+    public function divisi_get()
     {
         // ambil data dari model
         $divisi = $this->m_divisi->getDivisi();
@@ -38,7 +38,7 @@ class Divisi extends RESTController {
             ->set_output(json_encode($response));
     }
 
-    public function divisi_get($id)
+    public function divisibyid_get($id)
     {
         $data = $this->m_divisi->getDivisibyid($id);
 

@@ -15,7 +15,7 @@ class Jabatan extends RESTController {
         $this->load->model('master/m_jabatan');
     }
 
-    public function index_get()
+    public function jabatan_get()
     {
         // ambil data dari model
         $jabatan = $this->m_jabatan->getJabatan();
@@ -38,7 +38,7 @@ class Jabatan extends RESTController {
             ->set_output(json_encode($response));
     }
 
-    public function jabatan_get($id)
+    public function jabatanbyid_get($id)
     {
         $data = $this->m_jabatan->getJabatanbyid($id);
 

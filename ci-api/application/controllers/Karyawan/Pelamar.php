@@ -15,7 +15,7 @@ class Pelamar extends RESTController {
         $this->load->model('karyawan/m_pelamar');
     }
 
-    public function index_get()
+    public function pelamar_get()
     {
          // ambil data dari model
         $pelamar = $this->m_pelamar->getPelamar();
@@ -30,6 +30,28 @@ class Pelamar extends RESTController {
             $response = array(
                 'success' => false,
                 'message' => 'Data pelamar tidak ditemukan'
+            );
+        }
+
+        $this->output
+            ->set_content_type('application/json')
+            ->set_output(json_encode($response));
+    }
+
+    public function pelamarbyid_get($id)
+    {
+        $data = $this->m_pelamar->getPelamarbyid($id);
+
+        // buat respons API
+        if ($data) {
+            $response = array(
+                'success' => true,
+                'data' => $data
+            );
+        } else {
+            $response = array(
+                'success' => false,
+                'message' => 'Data tidak ditemukan'
             );
         }
 

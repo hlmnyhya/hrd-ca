@@ -15,7 +15,7 @@ class Keluarga extends RESTController {
         $this->load->model('master/m_keluarga');
     }
 
-    public function index_get()
+    public function keluarga_get()
     {
         // ambil data dari model
         $keluarga = $this->m_keluarga->getKeluarga();
@@ -38,7 +38,7 @@ class Keluarga extends RESTController {
             ->set_output(json_encode($response));
     }
 
-    public function keluarga_get($id)
+    public function keluargabyid_get($id)
     {
         $data = $this->m_keluarga->getKeluargabyid($id);
 

@@ -15,7 +15,7 @@ class Golongan extends RESTController {
         $this->load->model('master/m_golongan');
     }
 
-    public function index_get()
+    public function golongan_get()
     {
         // ambil data dari model
         $golongan = $this->m_golongan->getGolongan();
@@ -38,7 +38,7 @@ class Golongan extends RESTController {
             ->set_output(json_encode($response));
     }
 
-    public function golongan_get($id)
+    public function golonganbyid_get($id)
     {
         $data = $this->m_golongan->getGolonganbyid($id);
 

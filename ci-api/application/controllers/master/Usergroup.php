@@ -15,7 +15,7 @@ class Usergroup extends RESTController {
         $this->load->model('master/m_usergroup');
     }
 
-    public function index_get()
+    public function userGroup_get()
     {
         // ambil data dari model
         $usergroup = $this->m_usergroup->getusergroup();

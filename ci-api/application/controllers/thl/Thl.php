@@ -15,7 +15,7 @@ class Thl extends RESTController {
         $this->load->model('thl/m_thl');
     }
 
-    public function index_get()
+    public function thl_get()
     {
         // ambil data dari model
         $thl = $this->m_thl->getThl();
@@ -38,7 +38,7 @@ class Thl extends RESTController {
             ->set_output(json_encode($response));
     }
 
-    public function thl_get($id)
+    public function thlbyid_get($id)
     {
         $data = $this->m_thl->getThlbyid($id);
 
