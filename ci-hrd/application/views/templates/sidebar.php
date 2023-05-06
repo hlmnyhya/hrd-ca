@@ -88,10 +88,10 @@
                                 <li><a href="<?php echo base_url('Menu/submenu')?>">> <span>Sub Menu</span></a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php echo base_url('mpp')?>"><i class="fa fa-search"></i>
+                        <li><a href="<?php echo base_url('Mpp/mpp')?>"><i class="fa fa-search"></i>
                                 <span>MPP</span></a>
                         </li>
-                        <li><a href="<?php echo base_url('thl')?>"><i class="fa fa-bomb "></i>
+                        <li><a href="<?php echo base_url('Thl/thl')?>"><i class="fa fa-bomb "></i>
                                 <span>THL</span></a>
                         </li>
                         <li>
