@@ -93,57 +93,57 @@ $route['api/headcount']         = 'count/headcount/index';
 $route['api/count']             = 'count/count/index';
 
 // Routing API Divisi
-$route['api/divisi']                  = 'mastah/divisi/index';
-$route['api/divisi/tambah']           = 'mastah/divisi/addDivisi';
-$route['api/divisi/(:any)']           = 'mastah/divisi/divisi/$1';
-$route['api/divisi/edit/(:any)']      = 'mastah/divisi/updateDivisi/$1';
-$route['api/divisi/hapus/(:any)']     = 'mastah/divisi/deleteDivisi/$1';
+$route['api/divisi']                  = 'master/divisi/index';
+$route['api/divisi/tambah']           = 'master/divisi/addDivisi';
+$route['api/divisi/(:any)']           = 'master/divisi/divisi/$1';
+$route['api/divisi/edit/(:any)']      = 'master/divisi/updateDivisi/$1';
+$route['api/divisi/hapus/(:any)']     = 'master/divisi/deleteDivisi/$1';
 
 // Routing API Golongan
-$route['api/golongan']                  = 'mastah/golongan/index';
-$route['api/golongan/tambah']           = 'mastah/golongan/addGolongan';
-$route['api/golongan/(:any)']           = 'mastah/golongan/golongan/$1';
-$route['api/golongan/edit/(:any)']      = 'mastah/golongan/updateGolongan/$1';
-$route['api/golongan/hapus/(:any)']     = 'mastah/golongan/deleteGolongan/$1';
+$route['api/golongan']                  = 'master/golongan/index';
+$route['api/golongan/tambah']           = 'master/golongan/addGolongan';
+$route['api/golongan/(:any)']           = 'master/golongan/golongan/$1';
+$route['api/golongan/edit/(:any)']      = 'master/golongan/updateGolongan/$1';
+$route['api/golongan/hapus/(:any)']     = 'master/golongan/deleteGolongan/$1';
 
 // Routing API Jabatan
-$route['api/jabatan']                  = 'mastah/jabatan/index';
-$route['api/jabatan/tambah']           = 'mastah/jabatan/tambahJabatan';
-$route['api/jabatan/(:any)']           = 'mastah/jabatan/jabatan/$1';
-$route['api/jabatan/edit/(:any)']      = 'mastah/jabatan/updateJabatan/$1';
-$route['api/jabatan/hapus/(:any)']     = 'mastah/jabatan/deleteJabatan/$1';
+$route['api/jabatan']                  = 'master/jabatan/index';
+$route['api/jabatan/tambah']           = 'master/jabatan/tambahJabatan';
+$route['api/jabatan/(:any)']           = 'master/jabatan/jabatan/$1';
+$route['api/jabatan/edit/(:any)']      = 'master/jabatan/updateJabatan/$1';
+$route['api/jabatan/hapus/(:any)']     = 'master/jabatan/deleteJabatan/$1';
 
 // Routing API Keluarga
-$route['api/keluarga']                  = 'mastah/keluarga/index';
-$route['api/keluarga/tambah']           = 'mastah/keluarga/addKeluarga';
-$route['api/keluarga/(:any)']           = 'mastah/keluarga/keluarga/$1';
-$route['api/keluarga/edit/(:any)']      = 'mastah/keluarga/updateKeluarga/$1';
-$route['api/keluarga/hapus/(:any)']     = 'mastah/keluarga/deleteKeluarga/$1';
+$route['api/keluarga']                  = 'master/keluarga/index';
+$route['api/keluarga/tambah']           = 'master/keluarga/addKeluarga';
+$route['api/keluarga/(:any)']           = 'master/keluarga/keluarga/$1';
+$route['api/keluarga/edit/(:any)']      = 'master/keluarga/updateKeluarga/$1';
+$route['api/keluarga/hapus/(:any)']     = 'master/keluarga/deleteKeluarga/$1';
 
 // Routing API Login
-$route['api/login']             = 'mastah/login/index';
+$route['api/login']             = 'master/login/index';
 
 // Routing API Menu
-$route['api/menu']                  = 'mastah/menu/index';
-$route['api/menu/tambah']           = 'mastah/menu/addMenu';
-$route['api/menu/hapus/(:any)']     = 'mastah/menu/deleteMenu/$1';
+$route['api/menu']                  = 'master/menu/index';
+$route['api/menu/tambah']           = 'master/menu/addMenu';
+$route['api/menu/hapus/(:any)']     = 'master/menu/deleteMenu/$1';
 
 // Routing API Sub Menu
-$route['api/sub_menu']          = 'mastah/menu/subMenu';
+$route['api/sub_menu']          = 'master/menu/subMenu';
 
 // Routing API Menu Akses
-$route['api/menu_akses']                  = 'mastah/menu/menuAkses';
-$route['api/menu_akses/tambah']           = 'mastah/menu/addmenuAkses';
-$route['api/menu_akses/hapus/(:any)']     = 'mastah/menu/deleteMenuakses/$1';
+$route['api/menu_akses']                  = 'master/menu/menuAkses';
+$route['api/menu_akses/tambah']           = 'master/menu/addmenuAkses';
+$route['api/menu_akses/hapus/(:any)']     = 'master/menu/deleteMenuakses/$1';
 
 // Routing API User
-$route['api/user']              = 'mastah/user/index';
+$route['api/user']              = 'master/user/index';
 
 // Routing API Usergroup
-$route['api/usergroup']                  = 'mastah/usergroup/index';
-$route['api/usergroup/tambah']           = 'mastah/usergroup/addUserGroup';
-$route['api/usergroup/edit/(:any)']      = 'mastah/usergroup/updateUserGroup/$1';
-$route['api/usergroup/hapus/(:any)']     = 'mastah/usergroup/deleteUserGroup/$1';
+$route['api/usergroup']                  = 'master/usergroup/index';
+$route['api/usergroup/tambah']           = 'master/usergroup/addUserGroup';
+$route['api/usergroup/edit/(:any)']      = 'master/usergroup/updateUserGroup/$1';
+$route['api/usergroup/hapus/(:any)']     = 'master/usergroup/deleteUserGroup/$1';
 
 // Routing API MPP
 $route['api/mpp']                  = 'mpp/mpp/index';
