@@ -25,7 +25,23 @@
                         <li><a href="<?php echo base_url('dashboard')?>"><i class="fa fa-dashboard yellow_color"></i>
                                 <span>Dashboard</span></a>
                         </li>
+                        <li>
+                            <a href="#element12" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                                    class="fa fa-bars"></i> <span>Master Data</span></a>
+                            <ul class="collapse list-unstyled" id="element12">
+                                <li><a href="<?php echo base_url('Menu/menu')?>">> <span>Menu</span></a></li>
+                                <li><a href="<?php echo base_url('Menu/submenu')?>">> <span>Sub Menu</span></a></li>
+                                <li><a href="<?php echo base_url('Menu/user')?>">> <span>User</span></a></li>
+                                <li><a href="<?php echo base_url('Menu/usergroup')?>">> <span>User Group</span></a></li>
 
+                            </ul>
+                        </li>
+                        <li><a href="<?php echo base_url('Mpp/mpp')?>"><i class="fa fa-search"></i>
+                                <span>MPP</span></a>
+                        </li>
+                        <li><a href="<?php echo base_url('Thl/thl')?>"><i class="fa fa-bomb "></i>
+                                <span>THL</span></a>
+                        </li>
                         <li>
                             <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                                     class="fa fa-user purple_color"></i> <span>Data Karyawan</span></a>
@@ -81,25 +97,11 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#element12" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-bars"></i> <span>Menu</span></a>
-                            <ul class="collapse list-unstyled" id="element12">
-                                <li><a href="<?php echo base_url('Menu/menuakses')?>">> <span>Menu Akses</span></a></li>
-                                <li><a href="<?php echo base_url('Menu/submenu')?>">> <span>Sub Menu</span></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="<?php echo base_url('Mpp/mpp')?>"><i class="fa fa-search"></i>
-                                <span>MPP</span></a>
-                        </li>
-                        <li><a href="<?php echo base_url('Thl/thl')?>"><i class="fa fa-bomb "></i>
-                                <span>THL</span></a>
-                        </li>
-                        <li>
                             <a href="#element13" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-user"></i> <span>User</span></a>
+                                    class="fa fa-gear"></i> <span>Menu Rules</span></a>
                             <ul class="collapse list-unstyled" id="element13">
-                                <li><a href="<?php echo base_url('User/user')?>">> <span>User</span></a></li>
-                                <li><a href="<?php echo base_url('User/usergroup')?>">> <span>User Group</span></a></li>
+                                <li><a href="<?php echo base_url('Rules/menuakses')?>">> <span>Menu Akses</span></a>
+                                </li>
                             </ul>
                         </li>
                     </ul>

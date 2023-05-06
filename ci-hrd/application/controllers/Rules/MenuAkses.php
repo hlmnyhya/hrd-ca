@@ -1,7 +1,7 @@
-<?php
+a<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class UserGroup extends CI_Controller {
+class MenuAkses extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class UserGroup extends CI_Controller {
 	{
 		$this->load->view('templates/header');
         $this->load->view('templates/sidebar');
-        $this->load->view('User/usergroup');
+        $this->load->view('Rules/menuakses');
         $this->load->view('templates/footer');
 	}
 }
