@@ -84,8 +84,8 @@
                             <a href="#element12" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                                     class="fa fa-bars"></i> <span>Menu</span></a>
                             <ul class="collapse list-unstyled" id="element12">
-                                <li><a href="<?php echo base_url('menuakses')?>">> <span>Menu Akses</span></a></li>
-                                <li><a href="<?php echo base_url('submenu')?>">> <span>Sub Menu</span></a></li>
+                                <li><a href="<?php echo base_url('Menu/menuakses')?>">> <span>Menu Akses</span></a></li>
+                                <li><a href="<?php echo base_url('Menu/submenu')?>">> <span>Sub Menu</span></a></li>
                             </ul>
                         </li>
                         <li><a href="<?php echo base_url('mpp')?>"><i class="fa fa-search"></i>
@@ -98,8 +98,8 @@
                             <a href="#element13" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                                     class="fa fa-user"></i> <span>User</span></a>
                             <ul class="collapse list-unstyled" id="element13">
-                                <li><a href="<?php echo base_url('user')?>">> <span>User</span></a></li>
-                                <li><a href="<?php echo base_url('usergroup')?>">> <span>User Group</span></a></li>
+                                <li><a href="<?php echo base_url('User/user')?>">> <span>User</span></a></li>
+                                <li><a href="<?php echo base_url('User/usergroup')?>">> <span>User Group</span></a></li>
                             </ul>
                         </li>
                     </ul>
