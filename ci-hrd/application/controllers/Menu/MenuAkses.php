@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class THL extends CI_Controller {
+class MenuAkses extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class THL extends CI_Controller {
 	{
 		$this->load->view('templates/header');
         $this->load->view('templates/sidebar');
-        $this->load->view('thl');
+        $this->load->view('Menu/menuakses');
         $this->load->view('templates/footer');
 	}
 }
