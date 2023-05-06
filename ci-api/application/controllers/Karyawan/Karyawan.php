@@ -15,7 +15,7 @@ class Karyawan extends RESTController {
         $this->load->model('karyawan/m_karyawan');
     }
 
-    public function index_get()
+    public function karyawan_get()
     {
         // ambil data dari model
         $karyawan = $this->m_karyawan->getKaryawan();
@@ -38,7 +38,7 @@ class Karyawan extends RESTController {
             ->set_output(json_encode($response));
     }
 
-    public function karyawan_get($id)
+    public function karyawanbyid_get($id)
     {
         $data = $this->m_karyawan->getKaryawanbyid($id);
 

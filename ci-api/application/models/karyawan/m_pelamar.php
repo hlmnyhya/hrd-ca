@@ -14,6 +14,17 @@
         }
     }
 
+    public function getPelamarbyid($id)
+    {
+        if ($id===null) {
+            $result = $this->db->get('pelamar')->result();
+            return $result;              
+        }else {
+            $result = $this->db->get_where('pelamar',['id_pelamar' => $id])->result();
+            return $result;               
+        }
+    }
+
     public function addPelamar($data)
     {
         $result = $this->db->insert('pelamar',$data); 

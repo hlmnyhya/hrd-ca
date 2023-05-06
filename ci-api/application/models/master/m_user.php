@@ -50,7 +50,14 @@ class M_user extends CI_Model {
         return $result;
     }
 
-    public function editUser($data,$nik)
+    public function editUser($nik)
+    {
+        $this->db->where('id_user',$nik);
+        $query = $this->db->get('user');
+        return $query->row();
+    }
+
+    public function updateUser($nik, $data)
     {
         $this->db->where('id_user', $nik);
         $this->db->update('user', $data);  

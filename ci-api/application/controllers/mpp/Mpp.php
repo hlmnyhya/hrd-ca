@@ -15,7 +15,7 @@ class Mpp extends RESTController {
         $this->load->model('mpp/m_mpp');
     }
 
-    public function index_get()
+    public function mpp_get()
     {
          // ambil data dari model
         $mpp = $this->m_mpp->getMpp();

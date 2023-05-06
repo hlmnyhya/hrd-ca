@@ -15,7 +15,7 @@ class Menu extends RESTController {
         $this->load->model('master/m_menu');
     }
 
-    public function index_get()
+    public function menu_get()
     {
        // ambil data dari model
         $menu = $this->m_menu->getMenu();
