@@ -14,7 +14,7 @@
                     <div class="full graph_head">
                         <div class="heading1 margin_0">
                             <h2>DATA USER</h2>
-                            <td><a href="<?php echo base_url('tambahdatapribadi')?>"><button
+                            <td><a href="<?php echo base_url('Menu/tambahdatausergroup')?>"><button
                                         class="btn btn-primary btn-xs"><i class="fa fa-plus"> Tambah
                                             Data</i></button></a></td>
                         </div>
