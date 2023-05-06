@@ -32,7 +32,7 @@
                
                 <br>
                 <td>
-                    <a href="<?php echo base_url('User/usergroup')?>"><button class="btn btn-danger btn-"><i
+                    <a href="<?php echo base_url('Menu/usergroup')?>"><button class="btn btn-danger btn-"><i
                                 class="fa fa-arrow-circle-left">
                             </i> Back</button></a>
                     <a href="<?php echo base_url('tambahdatakeluarga')?>"><button class="btn btn-primary btn-">Simpan <i

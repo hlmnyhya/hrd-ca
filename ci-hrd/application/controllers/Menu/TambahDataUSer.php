@@ -22,7 +22,7 @@ class TambahDataUser extends CI_Controller {
 	{
 		$this->load->view('templates/header');
         $this->load->view('templates/sidebar');
-        $this->load->view('User/tambahdatauser');
+        $this->load->view('Menu/tambahdatauser');
         $this->load->view('templates/footer');
 	}
 }
