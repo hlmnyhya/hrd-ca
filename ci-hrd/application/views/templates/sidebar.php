@@ -30,8 +30,10 @@
                             <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                                     class="fa fa-user purple_color"></i> <span>Data Karyawan</span></a>
                             <ul class="collapse list-unstyled" id="element">
-                                <li><a href="<?php echo base_url('pribadi')?>">> <span>Pribadi</span></a></li>
-                                <li><a href="<?php echo base_url('karyawan')?>">> <span>Karyawan</span></a></li>
+                                <li><a href="<?php echo base_url('DataKaryawan/pribadi')?>">> <span>Pribadi</span></a>
+                                </li>
+                                <li><a href="<?php echo base_url('DataKaryawan/karyawan')?>">> <span>Karyawan</span></a>
+                                </li>
                             </ul>
                         </li>
                         <li class="active">
@@ -40,11 +42,12 @@
                                     Golongan</span></a>
                             <ul class="collapse list-unstyled" id="additional_page">
                                 <li>
-                                    <a href="<?php echo base_url('trackrecord')?>">> <span>Track Record
+                                    <a href="<?php echo base_url('RiwayatGolongan/trackrecord')?>">> <span>Track Record
                                             Golongan</span></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url('datagolongan')?>">> <span>Data Golongan</span></a>
+                                    <a href="<?php echo base_url('RiwayatGolongan/datagolongan')?>">> <span>Data
+                                            Golongan</span></a>
                                 </li>
                             </ul>
                         </li>
@@ -54,11 +57,18 @@
                             <ul class="collapse list-unstyled" id="apps">
                                 <!-- <li><a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Ricord Jabatan By Name</span></a></li> -->
                                 <li>
-                                    <a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Record Jabatan
+                                    <a href="<?php echo base_url('RiwayatJabatan/datajabatan')?>">> <span>
+                                            Data Jabatan
                                         </span></a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url('datamutasi')?>">> <span>Data Mutasi Kerja</span></a>
+                                    <a href="<?php echo base_url('RiwayatJabatan/trackrecordjabatan')?>">> <span>Track
+                                            Record Jabatan
+                                        </span></a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('RiwayatJabatan/datamutasi')?>">> <span>Data Mutasi
+                                            Kerja</span></a>
                                 </li>
                             </ul>
                         </li>
@@ -66,7 +76,8 @@
                             <a href="#apps1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                                     class="fa fa-users purple_color"></i> <span>Data Pelamar</span></a>
                             <ul class="collapse list-unstyled" id="apps1">
-                                <li><a href="<?php echo base_url('datapelamar')?>">> <span>Data </span></a></li>
+                                <li><a href="<?php echo base_url('DataPelamar/datapelamar')?>">> <span>Data </span></a>
+                                </li>
                             </ul>
                         </li>
                         <li>
