@@ -25,4 +25,37 @@ class User extends CI_Controller {
         $this->load->view('Menu/user');
         $this->load->view('templates/footer');
 	}
+
+	 public function post_user()
+    {
+        $data = [
+			'id_user' => html_escape($this->input->post('id_user')),
+            'nama' => html_escape($this->input->post('nama')),
+            'username' => html_escape($this->input->post('username')),
+            'password' => html_escape($this->input->post('password')),
+            'id_usergroup' => html_escape($this->input->post('id_usergroup')),
+			'status' =>html_escape( $this->input->post('status')),
+        ]
+        $id = $data['id_user'];
+
+        $cek = $this->mmasdat->getUserById($id);
+        if ($cek) {
+            $this->session->set_flashdata('warning', 'sudah ada');
+
+            redirect('master_data/input_user');
+        } else {
+            $exec = $this->mmasdat->addUser($data);
+            if ($exec) {
+                $this->session->set_flashdata(
+                    'berhasil',
+                    'berhasil ditambahkan'
+                );
+                redirect('master_data/input_user');
+            } else {
+                $this->session->set_flashdata('gagal', 'gagal ditambahkan');
+                redirect('master_data/input_user');
+            }
+        }
+    }
+
 }
