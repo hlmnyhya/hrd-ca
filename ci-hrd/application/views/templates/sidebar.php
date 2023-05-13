@@ -27,7 +27,7 @@
                         </li>
                         <li>
                             <a href="#element12" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-bars"></i> <span>Master Data</span></a>
+                                    class="fa fa-bars yellow_color"></i> <span>Master Data</span></a>
                             <ul class="collapse list-unstyled" id="element12">
                                 <li><a href="<?php echo base_url('Menu/menu')?>">> <span>Menu</span></a></li>
                                 <li><a href="<?php echo base_url('Menu/submenu')?>">> <span>Sub Menu</span></a></li>
@@ -36,15 +36,9 @@
 
                             </ul>
                         </li>
-                        <li><a href="<?php echo base_url('Mpp/mpp')?>"><i class="fa fa-search"></i>
-                                <span>MPP</span></a>
-                        </li>
-                        <li><a href="<?php echo base_url('Thl/thl')?>"><i class="fa fa-bomb "></i>
-                                <span>THL</span></a>
-                        </li>
                         <li>
                             <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-user purple_color"></i> <span>Data Karyawan</span></a>
+                                    class="fa fa-user yellow_color"></i> <span>Data Karyawan</span></a>
                             <ul class="collapse list-unstyled" id="element">
                                 <li><a href="<?php echo base_url('DataKaryawan/pribadi')?>">> <span>Pribadi</span></a>
                                 </li>
@@ -69,7 +63,7 @@
                         </li>
                         <li>
                             <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-briefcase blue2_color"></i> <span>Riwayat Jabatan</span></a>
+                                    class="fa fa-briefcase yellow_color"></i> <span>Riwayat Jabatan</span></a>
                             <ul class="collapse list-unstyled" id="apps">
                                 <!-- <li><a href="<?php echo base_url('trackrecordjabatan')?>">> <span>Track Ricord Jabatan By Name</span></a></li> -->
                                 <li>
@@ -90,15 +84,21 @@
                         </li>
                         <li>
                             <a href="#apps1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-users purple_color"></i> <span>Data Pelamar</span></a>
+                                    class="fa fa-users yellow_color"></i> <span>Data Pelamar</span></a>
                             <ul class="collapse list-unstyled" id="apps1">
                                 <li><a href="<?php echo base_url('DataPelamar/datapelamar')?>">> <span>Data </span></a>
                                 </li>
                             </ul>
                         </li>
+                          <li><a href="<?php echo base_url('Mpp/mpp')?>"><i class="fa fa-search yellow_color"></i>
+                                <span>MPP</span></a>
+                        </li>
+                        <li><a href="<?php echo base_url('Thl/thl')?>"><i class="fa fa-clone yellow_color"></i>
+                                <span>THL</span></a>
+                        </li>
                         <li>
                             <a href="#element13" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                                    class="fa fa-gear"></i> <span>Menu Rules</span></a>
+                                    class="fa fa-gear yellow_color"></i> <span>Menu Rules</span></a>
                             <ul class="collapse list-unstyled" id="element13">
                                 <li><a href="<?php echo base_url('Rules/menuakses')?>">> <span>Menu Akses</span></a>
                                 </li>

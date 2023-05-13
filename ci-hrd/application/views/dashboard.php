@@ -71,6 +71,7 @@
                                </div>
                            </div>
 
+                      
                            <!-- graph -->
                            <div class="row column2 graph margin_bottom_30">
                                <div class="col-md-l2 col-lg-12">
